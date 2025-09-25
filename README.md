@@ -145,11 +145,3 @@ project-root/
 * `DELETE /api/entity/:id` → Delete
 
 ---
-
-## ✅ Future Enhancements
-
-* Role-based authentication (Admin/User)
-* File uploads (profile pictures, attachments)
-* Pagination & sorting for entities
-* Deployment (Vercel for frontend, Render/Heroku for backend)
-
