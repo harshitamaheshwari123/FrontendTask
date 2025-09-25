@@ -83,8 +83,6 @@ cd your-repo
 cd backend
 # Install dependencies
 npm install    # For Node.js/Express
-# OR
-pip install -r requirements.txt   # For Python FastAPI/Django
 
 # Add environment variables (.env file)
 PORT=5000
@@ -96,11 +94,6 @@ Run backend server:
 
 ```bash
 npm start      # For Express
-# OR
-uvicorn main:app --reload   # For FastAPI
-# OR
-python manage.py runserver   # For Django
-```
 
 ### 3. Setup Frontend
 
@@ -126,9 +119,7 @@ project-root/
 │   ├── routes/          # API endpoints
 │   ├── middleware/      # JWT & auth logic
 │   └── controllers/     # Business logic
-│
-│── database/            # DB setup scripts (optional)
-│── .env                 # Environment variables
+│             
 │── README.md            # Project documentation
 ```
 
@@ -162,6 +153,3 @@ project-root/
 * Pagination & sorting for entities
 * Deployment (Vercel for frontend, Render/Heroku for backend)
 
-
----
-Do you want me to also **add example `.env` files** (frontend + backend) so it’s production-ready?
