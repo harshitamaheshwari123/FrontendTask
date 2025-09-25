@@ -55,11 +55,11 @@
 
 **Backend:**
 
-* Node.js (Express) or Python (FastAPI/Django)
+* Node.js (Express)
 
 **Database:**
 
-* MongoDB / PostgreSQL / MySQL
+* MongoDB 
 
 **Authentication:**
 
